@@ -80,7 +80,6 @@ def rip_id3(session, track): # write ID3 data
           " -A \"" + album + "\"" + \
           " -n " + str(num_track) + \
           " -Y " + str(year) + \
-          " -Q " + \
           " \"" + directory + mp3file + "\""
     shell(cmd)
 
